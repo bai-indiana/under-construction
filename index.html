@@ -25,6 +25,21 @@
             background-size: cover; /* Ensures the image covers the entire page */
             z-index: -1; /* Ensures the image is in the background */
         }
+
+        /* Media queries for responsive design */
+        @media (max-width: 768px) {
+            .background {
+                /* Optionally use a different image for tablets if desired */
+                background-image: url('UC.png'); /* Still using the same image */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .background {
+                /* Optionally use a different image for smartphones if desired */
+                background-image: url('UC.png'); /* Still using the same image */
+            }
+        }
     </style>
 </head>
 <body>
